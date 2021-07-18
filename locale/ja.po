@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-18 21:37+0900\n"
+"PO-Revision-Date: 2021-07-18 22:48+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -9369,23 +9369,29 @@ msgstr "阻止域最小減衰(&T):"
 msgid "Minimum S&topband Attenuation (dB)"
 msgstr "阻止域最小減衰 (dB) (&T)"
 
+# ja: ソースの出現は 2010/09/19、前任者による翻訳は 2011/02/06 と結構古いが、結局今まで本格実装に至っていないため、機能の把握や正しい翻訳の検討が困難。
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Align MIDI to Audio"
 msgstr "MIDI を音声に同期"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Frame Period:"
 msgstr "フレーム長:"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Frame Period"
 msgstr "フレーム長"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Window Size:"
 msgstr "ウィンドウサイズ:"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Window Size"
 msgstr "ウィンドウサイズ"
 
@@ -9395,14 +9401,17 @@ msgid "Force Final Alignment"
 msgstr "強制最終アラインメント"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Ignore Silence at Beginnings and Endings"
 msgstr "最初と最後の無音部分を無視"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Silence Threshold:"
 msgstr "無音のスレッショルド:"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Silence Threshold"
 msgstr "無音のスレッショルド"
 
@@ -9411,6 +9420,7 @@ msgstr "無音のスレッショルド"
 #. manual we don't have a clear description of what this parameter does.
 #. It is OK to leave it in English.
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Presmooth Time:"
 msgstr "プリスムース時間:"
 
@@ -9419,6 +9429,7 @@ msgstr "プリスムース時間:"
 #. manual we don't have a clear description of what this parameter does.
 #. It is OK to leave it in English.
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Presmooth Time"
 msgstr "プリスムース時間"
 
@@ -9427,6 +9438,7 @@ msgstr "プリスムース時間"
 #. manual we don't have a clear description of what this parameter does.
 #. It is OK to leave it in English.
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Line Time:"
 msgstr "ライン時間:"
 
@@ -9435,10 +9447,12 @@ msgstr "ライン時間:"
 #. manual we don't have a clear description of what this parameter does.
 #. It is OK to leave it in English.
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Line Time"
 msgstr "ライン時間"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Smooth Time:"
 msgstr "スムーズ時間:"
 
@@ -9447,19 +9461,22 @@ msgstr "スムーズ時間:"
 #. manual we don't have a clear description of what this parameter does.
 #. It is OK to leave it in English.
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Smooth Time"
 msgstr "スムーズ時間"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Use Defaults"
 msgstr "デフォルト"
 
 #: src/effects/ScoreAlignDialog.cpp
+#, fuzzy
 msgid "Restore Defaults"
 msgstr "デフォルトに復旧"
 
 #: src/effects/ScoreAlignDialog.cpp
-#, c-format
+#, fuzzy, c-format
 msgid "%.3f"
 msgstr "%.3f"
 

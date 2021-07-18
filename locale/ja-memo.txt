@@ -168,6 +168,11 @@ msgid "Sign Changes        -- mean: %1.4f  sd: (%1.4f)\n"
 msgid "Direction Changes  -- mean: %1.4f  sd: (%1.4f)\n"
 の空白のとり方は何？
 
+"Align MIDI to Audio" 機能、全体的に何？
+ソースの出現    ：2010/09/19、a1f0e5ed5bb0a0095809c371ea7c4271d91b25be
+前任者による翻訳：2011/02/06、443c678e78f50ea60ec7baf5346678689d001909
+と結構古いが、結局今まで本格実装に至っていないため、機能の把握や正しい翻訳の検討が困難。
+
 
 
 ■ これ何？

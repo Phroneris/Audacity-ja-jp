@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-18 23:05+0900\n"
+"PO-Revision-Date: 2021-07-18 23:56+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -317,7 +317,6 @@ msgstr "新規スクリプト"
 msgid "Open"
 msgstr "開く"
 
-#  i18n-hint: This is the name of the menu item on Mac OS X only
 #: modules/mod-nyq-bench/NyqBench.cpp
 msgid "Open script"
 msgstr "スクリプトを開く"
@@ -568,7 +567,6 @@ msgstr "グラフィック: %s"
 msgid "%s (incorporating %s, %s, %s, %s and %s)"
 msgstr "%s (%s、%s、%s、%s、%s)"
 
-# ja: 独自アクセスキー
 #. i18n-hint: information about the program
 #: src/AboutDialog.cpp
 #, c-format
@@ -714,7 +712,7 @@ msgstr "%s の名称は登録商標です。"
 msgid "Build Information"
 msgstr "ビルド情報"
 
-# ja: 「無効」と見分けやすくするためにあえて文字数を増やす
+# ja: 「無効」と見分けやすくするために、あえて文字数を増やす。
 #: src/AboutDialog.cpp src/PluginManager.cpp src/prefs/ModulePrefs.cpp
 msgid "Enabled"
 msgstr "有効です"
@@ -1036,7 +1034,7 @@ msgstr ""
 msgid "Reset Audacity Preferences"
 msgstr "Audacity の環境設定をリセット"
 
-# ja: 文字列だけ見ると「（既に）削除されています」かと思っちゃうが、これは見つからなかったファイルについて「（今）削除しました」という意味。
+# ja: 原文の文字列だけ見ると「（既に）削除されています」かと思っちゃうが、これは見つからなかったファイルについて「（今）削除しました」という意味。
 #: src/AudacityApp.cpp
 #, c-format
 msgid ""
@@ -2728,7 +2726,7 @@ msgstr "強調自己相関"
 msgid "Cepstrum"
 msgstr "ケプストラム"
 
-# ja: これは [解析]→[スペクトル表示] で使われているが、"window" 無しのものも [環境設定]→[トラック]→[スペクトログラム] で使われているため、「窓」という語を元の各メニュー項目の方に付けてこちらには付けない
+# ja: これは [解析]→[スペクトル表示] で使われているが、"window" 無しのものも [環境設定]→[トラック]→[スペクトログラム] で使われているため、「窓」という語を元の各メニュー項目の方に付けてこちらには付けない。
 #. i18n-hint: This refers to a "window function",
 #. * such as Hann or Rectangular, used in the
 #. * Frequency analyze dialog box.
@@ -3663,7 +3661,7 @@ msgstr ""
 "登録失敗:\n"
 "%s"
 
-# ja: 本当は「この」「これらの」を使い分けたい
+# ja: 本当は「この」「これらの」を使い分けたい。
 #. i18n-hint A plug-in is an optional added program for a sound
 #. effect, or generator, or analyzer
 #: src/PluginManager.cpp
@@ -3795,7 +3793,7 @@ msgid "Inspecting project file data"
 msgstr "プロジェクトファイルを精査しています"
 
 # ja: この辺りの文字列、そもそも `#if 0` の中にあるし使われてないのでは？
-# ja: 「方法」は次の3個
+# ja: 「方法」は次の3個：
 # ・"Close project immediately with no changes"
 # ・"Treat missing audio as silence (this session only)"
 # ・"Replace missing audio with silence (permanent immediately)."
@@ -5814,7 +5812,7 @@ msgstr "閾値:"
 msgid "Compares a range on two tracks."
 msgstr "2 本のトラックのレンジを比較します。"
 
-# ja: デモはデモなのであえて翻訳しない
+# ja: デモはデモなのであえて翻訳しない。
 #: src/commands/Demo.cpp
 msgid "Demo"
 msgstr "Demo"
@@ -5914,7 +5912,7 @@ msgstr "エンベロープ"
 msgid "Labels"
 msgstr "ラベル"
 
-# ja: 正直訳しようがないけど訳さないのも浮くし、まあこんなもんか
+# ja: 正直訳しようがないけど訳さないのも浮くし、まあこんなもんか…。
 #: src/commands/GetInfoCommand.cpp
 msgid "Boxes"
 msgstr "ボックス"
@@ -7327,7 +7325,7 @@ msgstr "WCAG 2.0 Success Criteria 1.4.7: 不合格"
 msgid "Data gathered"
 msgstr "データ収集日時"
 
-# ja: 2番目の "%s" は、Audacityの言語設定が日本語だと「4月」、英語だと「April」のようになる
+# ja: 2番目の "%s" は、Audacityの言語設定が日本語だと「4月」、英語だと「April」のようになる。
 #. i18n-hint: day of month, month, year, hour, minute, second
 #: src/effects/Contrast.cpp
 #, c-format
@@ -8989,7 +8987,7 @@ msgid "N&ormalize stereo channels independently"
 msgstr "ステレオチャンネルごとにノーマライズ(&O)"
 
 # ja: 独自アクセスキー
-# ja: 連続的伸縮は「伸縮」なのに対しこちらは「ストレッチ」なので、特別に同じグループになるようまとめる
+# ja: 連続的伸縮は「伸縮」なのに対しこちらは「ストレッチ」なので、特別に同じグループになるようまとめる。
 #: src/effects/Paulstretch.cpp
 msgid "Paulstretch"
 msgstr "伸縮: Paul ストレッチ(&S)"
@@ -9512,7 +9510,7 @@ msgid "Mixing down to mono"
 msgstr "モノラルにミックスダウンしています"
 
 # ja: 独自アクセスキー
-# ja: Paul ストレッチは「ストレッチ」なのに対しこちらは「伸縮」なので、特別に同じグループになるようまとめる
+# ja: Paul ストレッチは「ストレッチ」なのに対しこちらは「伸縮」なので、特別に同じグループになるようまとめる。
 #: src/effects/TimeScale.cpp
 msgid "Sliding Stretch"
 msgstr "伸縮: 連続的伸縮(&H)"
@@ -9637,7 +9635,7 @@ msgstr "音量が設定値より低い場合に自動的に切り詰めます"
 msgid "When truncating independently, there may only be one selected audio track in each Sync-Locked Track Group."
 msgstr "別々に切り詰める場合、トラックの同期ロックグループごとに 1 本のトラックしか選択することはできません。"
 
-# ja: [解析] > [無音の検出] との区別のために、「の」を削除
+# ja: [解析] > [無音の検出] との区別のために、「の」を削除。
 #: src/effects/TruncSilence.cpp
 msgid "Detect Silence"
 msgstr "無音検出"
@@ -13243,7 +13241,7 @@ msgstr "MIDI ファイル"
 msgid "Allegro files"
 msgstr "Allegro ファイル"
 
-# ja: 開発者向け。翻訳不要
+# ja: 開発者向け。翻訳不要。
 #: src/menus/FileMenus.cpp
 msgid "&Dangerous Reset..."
 msgstr "&Dangerous Reset..."
@@ -18675,7 +18673,7 @@ msgstr "CDDA フレーム (75fps)"
 msgid "01000,01000 frames|75"
 msgstr "0100万010000フレーム|75"
 
-# ja: 元の「010,01000>0100 Hz」では万の位が扱えないので不足すぎると思うが、勝手に桁数を増やすわけにもいかないのでとりあえずこれで
+# ja: 元の「010,01000>0100 Hz」では万の位が扱えないので不足すぎると思うが、勝手に桁数を増やすわけにもいかないのでとりあえずこれで。
 #. i18n-hint: Format string for displaying frequency in hertz. Change
 #. * the decimal point for your locale. Don't change the numbers.
 #. * The decimal separator is specified using '<' if your language uses a ',' or

@@ -129,6 +129,8 @@ msgid_plural "Enable these plug-ins?\n"
                動詞例：ステータスバーの "%s."、マクロで録音した時の進捗ダイアログ
 "Scrubbing" … 名詞例：スクラブツールバーの持ち手のツールチップ
                動詞例：ステータスバーの "%s."
+→環境設定の "Recording" は対応された。あとはちょっと怖いが "%s." を「%s中。」にして翻訳側で対応した。
+  ただし、マクロで再生/録音した時の件はこれでは解決しない。
 
 #: src/widgets/NumericTextCtrl.cpp
 msgid "010,01000>0100 Hz"

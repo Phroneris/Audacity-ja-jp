@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-18 19:46+0900\n"
+"PO-Revision-Date: 2021-07-18 21:37+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -14595,7 +14595,7 @@ msgstr "フォーカスしたトラックを最下段へ移動(&B)"
 #. progressive verb form
 #: src/menus/TransportMenus.cpp src/toolbars/ControlToolBar.cpp
 msgid "Playing"
-msgstr "再生中"
+msgstr "再生"
 
 #. i18n-hint: These are strings for the status bar, and indicate whether Audacity
 #. is playing or recording or stopped, and whether it is paused;
@@ -15036,7 +15036,6 @@ msgstr "デバイス(&D):"
 #. i18n-hint: modifier as in "Recording preferences", not progressive verb
 #: src/prefs/DevicePrefs.cpp src/prefs/RecordingPrefs.cpp
 #: src/prefs/RecordingPrefs.h
-#, fuzzy
 msgctxt "preference"
 msgid "Recording"
 msgstr "録音"
@@ -16923,7 +16922,7 @@ msgstr "%s 一時停止中。"
 #: src/toolbars/ControlToolBar.cpp
 #, c-format
 msgid "%s."
-msgstr "%s。"
+msgstr "%s中。"
 
 #. i18n-hint: Clicking this menu item shows the toolbar
 #. with the big buttons on it (play record etc)

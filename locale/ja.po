@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-20 03:17+0900\n"
+"PO-Revision-Date: 2021-07-20 03:20+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -636,7 +636,7 @@ msgstr ""
 #: src/AboutDialog.cpp
 #, c-format
 msgid "%s the free, open source, cross-platform software for recording and editing sounds."
-msgstr "%s は、録音と音声編集のために開発された<br>無料 &amp; オープンソース &amp; クロスプラットフォームなソフトウェアです。"
+msgstr "%s は、録音と音声編集のために開発された、<br>無料 &amp; オープンソース &amp; クロスプラットフォームなソフトウェアです。"
 
 #: src/AboutDialog.cpp
 msgid "Credits"
@@ -2149,7 +2149,7 @@ msgid ""
 msgstr ""
 "「%s」の実行対象となる音声を最初に選択してください。\n"
 "\n"
-"Ctrl+A ですべての音声が選択できます。"
+"Ctrl+A ですべての音声を選択できます。"
 
 #. i18n-hint: %s will be replaced by the name of an action, such as Normalize, Cut, Fade.
 #: src/CommonCommandFlags.cpp
@@ -3929,7 +3929,7 @@ msgstr "削除せずに続行 (このセッションでは余計なファイル�
 
 #: src/ProjectFSCK.cpp
 msgid "Delete orphan files (permanent immediately)"
-msgstr "無用なファイルの削除 (即座に、永続的に)"
+msgstr "無用なファイルを削除 (即座に、永続的に)"
 
 #: src/ProjectFSCK.cpp
 msgid "Warning - Orphan Block File(s)"
@@ -12365,7 +12365,7 @@ msgstr "GStreamer 取り込み機能"
 
 #: src/import/ImportGStreamer.cpp
 msgid "Unable to set stream state to paused."
-msgstr "ストリーム状態を pause に設定できません。"
+msgstr "ストリーム状態を paused に設定できません。"
 
 #: src/import/ImportGStreamer.cpp
 #, c-format

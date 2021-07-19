@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-20 03:04+0900\n"
+"PO-Revision-Date: 2021-07-20 03:10+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -1653,7 +1653,7 @@ msgid ""
 msgstr ""
 "選択したプロジェクトを破棄してもよろしいですか？\n"
 "\n"
-"[はい] を選ぶと、すべてのプロジェクトは即座に、永久に削除されます。"
+"[はい] を選ぶと、すべてのプロジェクトは即座に、永続的に削除されます。"
 
 #: src/BatchCommandDialog.cpp
 msgid "Select Command"
@@ -3837,7 +3837,7 @@ msgstr "欠落した音声を無音として扱う (このセッションのみ)
 
 #: src/ProjectFSCK.cpp
 msgid "Replace missing audio with silence (permanent immediately)."
-msgstr "欠落した音声を無音で置換 (恒久的に今すぐ)"
+msgstr "欠落した音声を無音で置換 (即座に、永続的に)"
 
 #: src/ProjectFSCK.cpp
 msgid "Warning - Missing Aliased File(s)"
@@ -3904,7 +3904,7 @@ msgstr ""
 
 #: src/ProjectFSCK.cpp
 msgid "Replace missing audio with silence (permanent immediately)"
-msgstr "欠落した音声を無音で置換 (恒久的に今すぐ)"
+msgstr "欠落した音声を無音で置換 (即座に、永続的に)"
 
 #: src/ProjectFSCK.cpp
 msgid "Warning - Missing Audio Data Block File(s)"
@@ -3929,7 +3929,7 @@ msgstr "削除せずに続行 (このセッションでは余計なファイル�
 
 #: src/ProjectFSCK.cpp
 msgid "Delete orphan files (permanent immediately)"
-msgstr "無用なファイルの削除 (恒久的に今すぐ)"
+msgstr "無用なファイルの削除 (即座に、永続的に)"
 
 #: src/ProjectFSCK.cpp
 msgid "Warning - Orphan Block File(s)"

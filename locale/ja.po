@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-20 02:43+0900\n"
+"PO-Revision-Date: 2021-07-20 03:04+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -2149,19 +2149,19 @@ msgid ""
 msgstr ""
 "「%s」の実行対象となる音声を最初に選択してください。\n"
 "\n"
-"Ctrl+A で全ての音声が選択できます。"
+"Ctrl+A ですべての音声が選択できます。"
 
 #. i18n-hint: %s will be replaced by the name of an action, such as Normalize, Cut, Fade.
 #: src/CommonCommandFlags.cpp
 #, c-format
 msgid "Select the audio for %s to use (for example, Cmd + A to Select All) then try again."
-msgstr "%s に利用させる音声を選択してやり直してください (例えば Cmd+A で全選択)。"
+msgstr "%s に利用させる音声を選択してやり直してください (例えば Cmd+A ですべて選択)。"
 
 #. i18n-hint: %s will be replaced by the name of an action, such as Normalize, Cut, Fade.
 #: src/CommonCommandFlags.cpp
 #, c-format
 msgid "Select the audio for %s to use (for example, Ctrl + A to Select All) then try again."
-msgstr "%s に利用させる音声を選択してやり直してください (例えば Ctrl+A で全選択)。"
+msgstr "%s に利用させる音声を選択してやり直してください (例えば Ctrl+A ですべて選択)。"
 
 #: src/CommonCommandFlags.cpp
 msgid "No Audio Selected"
@@ -4740,19 +4740,19 @@ msgstr "部分的に取り込む"
 
 #: src/Screenshot.cpp
 msgid "All Toolbars"
-msgstr "全ツールバー"
+msgstr "すべてのツールバー"
 
 #: src/Screenshot.cpp
 msgid "All Effects"
-msgstr "全エフェクト"
+msgstr "すべてのエフェクト"
 
 #: src/Screenshot.cpp
 msgid "All Scriptables"
-msgstr "全スクリプト用機能"
+msgstr "すべてのスクリプト用機能"
 
 #: src/Screenshot.cpp
 msgid "All Preferences"
-msgstr "全環境設定"
+msgstr "すべての環境設定"
 
 #: src/Screenshot.cpp
 msgid "SelectionBar"
@@ -6165,11 +6165,11 @@ msgstr "最初のトラックと周辺"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "All Tracks"
-msgstr "全トラック"
+msgstr "すべてのトラック"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "All Tracks Plus"
-msgstr "全トラックと周辺"
+msgstr "すべてのトラックと周辺"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "Blue"
@@ -13906,11 +13906,11 @@ msgstr "トラック(&T)"
 
 #: src/menus/SelectMenus.cpp
 msgid "In All &Tracks"
-msgstr "全トラック(&T)"
+msgstr "すべてのトラック(&T)"
 
 #: src/menus/SelectMenus.cpp
 msgid "In All &Sync-Locked Tracks"
-msgstr "同期ロックした全トラック(&S)"
+msgstr "同期ロックしたすべてのトラック(&S)"
 
 #: src/menus/SelectMenus.cpp
 msgid "Select Sync-Locked"
@@ -14467,11 +14467,11 @@ msgstr "ミュート/非ミュート(&U)"
 
 #: src/menus/TrackMenus.cpp
 msgid "&Mute All Tracks"
-msgstr "全トラックをミュート(&M)"
+msgstr "すべてのトラックをミュート(&M)"
 
 #: src/menus/TrackMenus.cpp
 msgid "&Unmute All Tracks"
-msgstr "全トラックをミュート解除(&U)"
+msgstr "すべてのトラックをミュート解除(&U)"
 
 #: src/menus/TrackMenus.cpp
 msgid "Mut&e Tracks"
@@ -14908,11 +14908,11 @@ msgstr "高さに合わせる(&H)"
 
 #: src/menus/ViewMenus.cpp
 msgid "&Collapse All Tracks"
-msgstr "全てのトラックを縮小(&C)"
+msgstr "すべてのトラックを縮小(&C)"
 
 #: src/menus/ViewMenus.cpp
 msgid "E&xpand Collapsed Tracks"
-msgstr "全てのトラックを展開(&X)"
+msgstr "すべてのトラックを展開(&X)"
 
 #: src/menus/ViewMenus.cpp
 msgid "Sk&ip to"
@@ -14960,13 +14960,13 @@ msgstr "最小化(&M)"
 #. * windows un-hidden
 #: src/menus/WindowMenus.cpp
 msgid "&Bring All to Front"
-msgstr "全てを最前面に(&B)"
+msgstr "すべてを最前面に(&B)"
 
 #. i18n-hint: Shrink all project windows to icons on the Macintosh
 #. tooldock
 #: src/menus/WindowMenus.cpp
 msgid "Minimize All Projects"
-msgstr "全てのプロジェクトを最小化"
+msgstr "すべてのプロジェクトを最小化"
 
 #: src/ondemand/ODComputeSummaryTask.h
 msgid "Import complete. Calculating waveform"

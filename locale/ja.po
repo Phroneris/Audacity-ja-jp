@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-20 03:10+0900\n"
+"PO-Revision-Date: 2021-07-20 03:17+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -4844,7 +4844,7 @@ msgstr "最初のトラック"
 
 #: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
 msgid "Second Track"
-msgstr "2 番目トラック"
+msgstr "2 本目のトラック"
 
 #: src/Screenshot.cpp src/prefs/SpectrumPrefs.cpp
 msgid "Scale"
@@ -6145,15 +6145,15 @@ msgstr "トラックパネル"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "First Two Tracks"
-msgstr "最初の 2 トラック"
+msgstr "最初の 2 本のトラック"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "First Three Tracks"
-msgstr "最初の 3 トラック"
+msgstr "最初の 3 本のトラック"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "First Four Tracks"
-msgstr "最初の 4 トラック"
+msgstr "最初の 4 本のトラック"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "Tracks Plus"
@@ -8948,12 +8948,12 @@ msgstr "処理なし...\n"
 #: src/effects/Normalize.cpp
 #, c-format
 msgid "Analyzing first track of stereo pair: %s"
-msgstr "ステレオ対の 1 番目のトラックを解析中: %s"
+msgstr "ステレオ対の 1 本目のトラックを解析中: %s"
 
 #: src/effects/Normalize.cpp
 #, c-format
 msgid "Analyzing second track of stereo pair: %s"
-msgstr "ステレオ対の 2 番目のトラックを解析中: %s"
+msgstr "ステレオ対の 2 本目のトラックを解析中: %s"
 
 #: src/effects/Normalize.cpp
 #, c-format
@@ -8963,12 +8963,12 @@ msgstr "ステレオチャンネルを個別処理中: %s"
 #: src/effects/Normalize.cpp
 #, c-format
 msgid "Processing first track of stereo pair: %s"
-msgstr "ステレオ対の 1 番目のトラックを処理中: %s"
+msgstr "ステレオ対の 1 本目のトラックを処理中: %s"
 
 #: src/effects/Normalize.cpp
 #, c-format
 msgid "Processing second track of stereo pair: %s"
-msgstr "ステレオ対の 2 番目のトラックを処理中: %s"
+msgstr "ステレオ対の 2 本目のトラックを処理中: %s"
 
 #: src/effects/Normalize.cpp
 msgid "&Remove DC offset (center on 0.0 vertically)"

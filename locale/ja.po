@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-07-15 12:48-0400\n"
-"PO-Revision-Date: 2021-07-18 23:56+0900\n"
+"PO-Revision-Date: 2021-07-20 02:17+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -2694,9 +2694,9 @@ msgid "Specify New Filename:"
 msgstr "新しいファイル名を指定してください:"
 
 #: src/FileNames.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Directory %s does not have write permissions"
-msgstr "ディレクトリ %s はありません。作成しますか？"
+msgstr "ディレクトリ %s には書き込み権限がありません"
 
 #: src/FreqWindow.cpp
 msgid "Frequency Analysis"
@@ -18810,28 +18810,25 @@ msgstr "閉じる確認"
 
 #. i18n-hint: %s is replaced with a directory path.
 #: src/widgets/UnwritableLocationErrorDialog.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to write files to directory: %s."
-msgstr "「%s」からプリセットファイルを読み込めません"
+msgstr "ファイルをディレクトリに書き込めません: %s"
 
 #. i18n-hint: This message describes the error in the Error dialog.
 #: src/widgets/UnwritableLocationErrorDialog.cpp
 msgid "Please check that the directory exists, has the necessary permissions, and the drive isn't full."
-msgstr ""
+msgstr "ディレクトリが存在すること、必要な権限を有すること、ドライブに空き容量があることを確認してください。"
 
 #. i18n-hint: %s is replaced with 'Preferences > Directories'.
 #: src/widgets/UnwritableLocationErrorDialog.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "You can change the directory in %s."
-msgstr ""
-"ディレクトリを作成できませんでした:\n"
-"  %s"
+msgstr "ディレクトリ設定は、%s から変更することができます。"
 
 #. i18n-hint: Hyperlink title that opens Preferences dialog on Directories page.
 #: src/widgets/UnwritableLocationErrorDialog.cpp
-#, fuzzy
 msgid "Preferences > Directories"
-msgstr "ディレクトリの環境設定"
+msgstr "[環境設定] > [ディレクトリ]"
 
 #: src/widgets/Warning.cpp
 msgid "Don't show this warning again"

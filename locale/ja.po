@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-16 22:20+0900\n"
+"PO-Revision-Date: 2021-10-16 23:01+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -3240,6 +3240,7 @@ msgstr "使用クリップボード領域(&B)"
 msgid "D&iscard"
 msgstr "破棄(&I)"
 
+# ja: EXPERIMENTAL
 #: src/HistoryWindow.cpp
 msgid "&Compact"
 msgstr ""
@@ -4785,7 +4786,7 @@ msgstr "取り込みエラー"
 
 #: src/ProjectFileManager.cpp
 msgid "Cannot import AUP3 format.  Use File > Open instead"
-msgstr "AUP3 フォーマットを取り込めません。  代わりに [ファイル] > [開く] をご利用ください。"
+msgstr "AUP3 フォーマットを取り込むことはできません。  代わりに [ファイル] > [開く] をご利用ください。"
 
 #: src/ProjectFileManager.cpp
 msgid "Compact Project"
@@ -5189,37 +5190,34 @@ msgstr "音による録音起動"
 msgid "Activation level (dB):"
 msgstr "録音起動レベル (dB):"
 
+# ja: EXPERIMENTAL
 #: src/SpectralDataDialog.cpp
 msgid "Spectral Data Control Panel"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
-#, fuzzy
 msgid "Brush Tool"
-msgstr "前のツール(&P)"
+msgstr ""
 
 #: src/SpectralDataDialog.cpp
-#, fuzzy
 msgid "Spectral Brush"
-msgstr "スペクトル表示(&P)"
+msgstr ""
 
 #: src/SpectralDataDialog.cpp
 msgid "Brush radius"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
-#, fuzzy
 msgid "Custom brush size"
-msgstr "カスタム曲線"
+msgstr ""
 
 #: src/SpectralDataDialog.cpp
 msgid "Auto-select overtones (beta)"
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
-#, fuzzy
 msgid "Enable smart selection"
-msgstr "スペクトル選択を有効化(&B)"
+msgstr ""
 
 #: src/SpectralDataDialog.cpp
 msgid ""
@@ -5228,14 +5226,12 @@ msgid ""
 msgstr ""
 
 #: src/SpectralDataDialog.cpp
-#, fuzzy
 msgid "Spectra&l Selection Panel"
-msgstr "スペクトル選択"
+msgstr ""
 
 #: src/SpectralDataManager.cpp
-#, fuzzy
 msgid "Applied effect to selection"
-msgstr "終了点を選択範囲の終わりに移動"
+msgstr ""
 
 #: src/SplashDialog.cpp
 msgid "Welcome to Audacity!"
@@ -9475,7 +9471,7 @@ msgstr "阻止域最小減衰(&T):"
 msgid "Minimum S&topband Attenuation (dB)"
 msgstr "阻止域最小減衰 (dB) (&T)"
 
-# ja: ソースの出現は 2010/09/19、前任者による翻訳は 2011/02/06 と結構古いが、結局今まで本格実装に至っていないため、機能の把握や正しい翻訳の検討が困難。
+# ja: EXPERIMENTAL
 #: src/effects/ScoreAlignDialog.cpp
 #, fuzzy
 msgid "Align MIDI to Audio"
@@ -18153,18 +18149,16 @@ msgid "Export Audio..."
 msgstr "音声の書き出し..."
 
 #: src/tracks/ui/BrushHandle.cpp
-#, fuzzy
 msgid "Erased selected area"
-msgstr "選択したルールの削除(&L)"
+msgstr ""
 
 #: src/tracks/ui/BrushHandle.cpp
 msgid "Selected area using Brush Tool"
 msgstr ""
 
 #: src/tracks/ui/BrushHandle.cpp
-#, fuzzy
 msgid "Brush tool selection"
-msgstr "選択部分の切り取り"
+msgstr ""
 
 #: src/tracks/ui/CommonTrackControls.cpp
 msgid "&Name..."

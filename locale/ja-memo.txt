@@ -110,8 +110,6 @@ src/FileException.cpp の
 "Audacity failed to read from a file in %s."
 の "in %s" がよくわからない。
 
-操作履歴機能に関連して存在するらしい "Compact" 機能が、実際のUI上に見当たらない。
-
 #: src/PluginManager.cpp
 msgctxt "plug-ins"
 msgid "Enable this plug-in?\n"
@@ -160,20 +158,6 @@ msgid "Meter refresh rate per second [1-100]"
 msgid "Meter refresh rate per second [1-100]: "
 は用途がどう違う？
 
-#: src/VoiceKey.cpp
-#, c-format
-msgid "Energy                  -- mean: %1.4f  sd: (%1.4f)\n"
-#: 〃
-msgid "Sign Changes        -- mean: %1.4f  sd: (%1.4f)\n"
-#: 〃
-msgid "Direction Changes  -- mean: %1.4f  sd: (%1.4f)\n"
-の空白のとり方は何？
-
-"Align MIDI to Audio" 機能、全体的に何？
-ソースの出現    ：2010/09/19、a1f0e5ed5bb0a0095809c371ea7c4271d91b25be
-前任者による翻訳：2011/02/06、443c678e78f50ea60ec7baf5346678689d001909
-と結構古いが、結局今まで本格実装に至っていないため、機能の把握や正しい翻訳の検討が困難。
-
 
 
 ■ これ何？
@@ -205,6 +189,19 @@ msgid "IMPORT EXPORT"
 msgid "1st Experimental Command..."
 #: 〃
 msgid "2nd Experimental Command"
+
+
+
+■ まだ実験段階の機能らしく、機能の把握や正しい翻訳の検討ができないもの
+
+・Align MIDI to Audio:
+    ソースの出現が2010年（a1f0e5e）、前任者による翻訳も2011年（443c678）と結構古いが、未実装。
+・Compact:
+    プロジェクトファイルの取り込みと操作履歴に関連。
+・SpectralDataDialog、BrushHandle（多分）:
+    ブラシサイズ云々みたいな内容があるので、スペクトル表示をグラフィカルに編集する機能と思われる。
+・Voice key
+    もうとっくに翻訳しちゃったよ～。
 
 
 

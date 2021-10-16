@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-16 23:28+0900\n"
+"PO-Revision-Date: 2021-10-17 00:32+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -1460,7 +1460,7 @@ msgstr "更新確認と障害報告には、ネットワーク接続が必要で
 
 #: src/AdornedRulerPanel.cpp
 msgid "Click and drag to define a looping region."
-msgstr "クリック＆ドラッグでループ領域を指定します。"
+msgstr "クリック＆ドラッグでループ範囲を指定します。"
 
 #: src/AdornedRulerPanel.cpp
 msgid "Timeline actions disabled during recording"
@@ -5139,7 +5139,7 @@ msgid ""
 "Cannot lock region beyond\n"
 "end of project."
 msgstr ""
-"プロジェクトの最後より先の領域を\n"
+"プロジェクトの最後より先の範囲を\n"
 "ロックすることはできません。"
 
 #: src/SelectUtilities.cpp
@@ -9247,11 +9247,11 @@ msgid ""
 "\n"
 "Zoom in and select a tiny fraction of a second to repair."
 msgstr ""
-"修復エフェクトは、損傷した音声データのとても短い領域 (128 サンプルまで)\n"
-"に対して使用することが意図されています。\n"
+"修復エフェクトは、損傷した音声データのとても短い選択範囲 (128 サンプルまで) に対して使用することが意図されています。\n"
 "\n"
-"拡大して、修復対象領域を 1 秒よりもずっと短く選択してください。"
+"拡大して、修復対象範囲を 1 秒よりもずっと短く選択してください。"
 
+# ja: 例えば、全長100サンプルのトラック全体を選択して実行すると表示される。
 #: src/effects/Repair.cpp
 msgid ""
 "Repair works by using audio data outside the selection region.\n"
@@ -9260,11 +9260,11 @@ msgid ""
 "\n"
 "The more surrounding audio, the better it performs."
 msgstr ""
-"選択範囲外の音声データを使って修復します。\n"
+"修復エフェクトは、選択範囲外の音声データを使って修復を行います。\n"
 "\n"
-"音声データが接続する最低片方側のデータ領域を選択してください。\n"
+"少なくともどちらか一方に音声データが接続しているような範囲を選択してください。\n"
 "\n"
-"より多くの音声データを選ぶと、より良く修復できます。"
+"より多くの音声データに囲まれているほど、より高品質に修復できます。"
 
 # ja: 独自アクセスキー
 #: src/effects/Repeat.cpp
@@ -9274,7 +9274,7 @@ msgstr "繰り返し(&R)"
 # ja: 説明
 #: src/effects/Repeat.cpp
 msgid "Repeats the selection the specified number of times"
-msgstr "指定された回数だけその領域を繰り返します"
+msgstr "指定された回数だけ選択範囲を繰り返します"
 
 #: src/effects/Repeat.cpp
 msgid "&Number of repeats to add:"
@@ -14061,7 +14061,7 @@ msgstr "同期ロックしたトラックを選択"
 
 #: src/menus/SelectMenus.cpp
 msgid "R&egion"
-msgstr "領域(&E)"
+msgstr "範囲選択(&E)"
 
 #: src/menus/SelectMenus.cpp
 msgid "&Left at Playback Position"
@@ -14976,7 +14976,7 @@ msgstr "選択範囲開始点の直前から直後までを再生(&N)"
 
 #: src/menus/TransportMenus.cpp
 msgid "Play Before an&d After Selection End"
-msgstr "選択領域終了点の直前から直後までを再生(&D)"
+msgstr "選択範囲終了点の直前から直後までを再生(&D)"
 
 #: src/menus/TransportMenus.cpp
 msgid "Play C&ut Preview"
@@ -16179,7 +16179,7 @@ msgstr "Shift+ドラッグ"
 
 #: src/prefs/MousePrefs.cpp
 msgid "Zoom out on a Range"
-msgstr "この範囲を拡大"
+msgstr "この範囲を縮小"
 
 #: src/prefs/MousePrefs.cpp
 msgid "Middle-Click"
@@ -16301,11 +16301,11 @@ msgstr "切り取りプレビュー"
 
 #: src/prefs/PlaybackPrefs.cpp
 msgid "&Before cut region:"
-msgstr "切り取り領域前(&B):"
+msgstr "切り取り前の範囲(&B):"
 
 #: src/prefs/PlaybackPrefs.cpp
 msgid "&After cut region:"
-msgstr "切り取り領域後(&A):"
+msgstr "切り取り後の範囲(&A):"
 
 #: src/prefs/PlaybackPrefs.cpp
 msgid "Seek Time when playing"
@@ -16838,7 +16838,7 @@ msgstr "選択が必要な時には自動で選択(&S)"
 #. i18n-hint: Cut-lines are lines that can expand to show the cut audio.
 #: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Enable cut &lines"
-msgstr "カットライン機能 (切り取った領域をクリックで復活可能) を有効化(&L)"
+msgstr "カットライン機能 (切り取った範囲をクリックで復活可能) を有効化(&L)"
 
 #: src/prefs/TracksBehaviorsPrefs.cpp
 msgid "Enable &dragging selection edges"
@@ -17663,7 +17663,7 @@ msgstr "左クリック/左ドラッグ"
 
 #: src/tracks/playabletrack/notetrack/ui/StretchHandle.cpp
 msgid "Click and drag to stretch selected region."
-msgstr "クリック＆ドラッグで選択領域を伸縮します。"
+msgstr "クリック＆ドラッグで選択範囲を伸縮します。"
 
 #. i18n-hint: (noun) The track that is used for MIDI notes which can be
 #. dragged to change their duration.
@@ -19886,19 +19886,19 @@ msgstr "ラベル配置形式"
 
 #: plug-ins/label-sounds.ny
 msgid "Point before sound"
-msgstr "有音部の開始地点"
+msgstr "有音部の開始地点に配置"
 
 #: plug-ins/label-sounds.ny
 msgid "Point after sound"
-msgstr "有音部の終了地点"
+msgstr "有音部の終了地点に配置"
 
 #: plug-ins/label-sounds.ny
 msgid "Region around sounds"
-msgstr "有音部の継続領域"
+msgstr "有音部の継続領域に配置"
 
 #: plug-ins/label-sounds.ny
 msgid "Region between sounds"
-msgstr "有音部同士の間の領域"
+msgstr "有音部同士の間の領域に配置"
 
 #: plug-ins/label-sounds.ny
 msgid "Maximum leading silence"

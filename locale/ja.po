@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-16 23:15+0900\n"
+"PO-Revision-Date: 2021-10-16 23:17+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -17684,7 +17684,7 @@ msgstr "左クリックでクリップを連結"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Merged Clips"
-msgstr "連結したクリップ"
+msgstr "クリップを連結しました"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Merge"
@@ -17692,7 +17692,7 @@ msgstr "連結"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Expanded Cut Line"
-msgstr "展開したカットライン"
+msgstr "カットラインを展開しました"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 #: src/tracks/ui/TrackButtonHandles.cpp
@@ -17701,7 +17701,7 @@ msgstr "展開"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Removed Cut Line"
-msgstr "削除したカットライン"
+msgstr "カットラインを削除しました"
 
 #: src/tracks/playabletrack/wavetrack/ui/SampleHandle.cpp
 msgid "Click and drag to edit the samples"
@@ -17713,7 +17713,7 @@ msgstr "描画を行うには個々のサンプルが見えるまで拡大をし
 
 #: src/tracks/playabletrack/wavetrack/ui/SampleHandle.cpp
 msgid "Moved Samples"
-msgstr "移動したサンプル"
+msgstr "サンプルを移動しました"
 
 #: src/tracks/playabletrack/wavetrack/ui/SampleHandle.cpp
 msgid "Sample Edit"

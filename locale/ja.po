@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-16 23:01+0900\n"
+"PO-Revision-Date: 2021-10-16 23:12+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -1776,6 +1776,7 @@ msgstr ""
 msgid "An unrecoverable error has occurred during startup"
 msgstr "起動に際して回復不能なエラーが発生しました"
 
+# ja: audacity --help で出る説明
 #. i18n-hint: This controls the number of bytes that Audacity will
 #. *           use when writing files to the disk
 #: src/AudacityApp.cpp
@@ -1790,26 +1791,30 @@ msgstr "最大ディスクブロックをバイトで設定"
 msgid "replay a journal file"
 msgstr "実行記録ファイルを再現"
 
+# ja: audacity --help で出る説明
 #. i18n-hint: This displays a list of available options
 #: src/AudacityApp.cpp
 msgid "this help message"
 msgstr "このヘルプメッセージ"
 
+# ja: audacity --help で出る説明
 #. i18n-hint: This runs a set of automatic tests on Audacity itself
 #: src/AudacityApp.cpp
 msgid "run self diagnostics"
-msgstr "自己診断の実行"
+msgstr "自己診断を実行"
 
+# ja: audacity --help で出る説明
 #. i18n-hint: This displays the Audacity version
 #: src/AudacityApp.cpp
 msgid "display Audacity version"
-msgstr "Audacity のバージョン表示"
+msgstr "Audacity のバージョンを表示"
 
+# ja: audacity --help で出る説明
 #. i18n-hint: This is a list of one or more files that Audacity
 #. *           should open upon startup
 #: src/AudacityApp.cpp
 msgid "audio or project file name"
-msgstr "音声またはプロジェクトファイル名"
+msgstr "音声またはプロジェクトのファイル名"
 
 #: src/AudacityApp.cpp
 msgid ""

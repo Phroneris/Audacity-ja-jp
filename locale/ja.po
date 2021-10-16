@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-16 23:26+0900\n"
+"PO-Revision-Date: 2021-10-16 23:28+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -9982,9 +9982,9 @@ msgstr "ユーザーインターフェイス"
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Select \"Full\" to use the graphical interface if supplied by the Audio Unit. Select \"Generic\" to use the system supplied generic interface. Select \"Basic\" for a basic text-only interface. Reopen the effect for this to take effect."
 msgstr ""
-"Audio Unit が提供するグラフィカルインターフェイスを利用するには、「Full」を選んでください。\n"
-"システムのインターフェイスを利用するには、「Generic」を選んでください。\n"
-"テキスト型インターフェイスにするには「Basic」を選んでください。\n"
+"Audio Unit が提供するグラフィカルインターフェイスを利用するには、「完全」を選んでください。\n"
+"システムのインターフェイスを利用するには、「汎用」を選んでください。\n"
+"テキスト型インターフェイスにするには「最低限」を選んでください。\n"
 "変更を適用するには、エフェクトを一度閉じてから再び開き直してください。"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
@@ -9993,15 +9993,15 @@ msgstr "インターフェイスの選択(&I)"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp src/prefs/KeyConfigPrefs.cpp
 msgid "Full"
-msgstr "Full"
+msgstr "完全"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Generic"
-msgstr "Generic"
+msgstr "汎用"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Basic"
-msgstr "Basic"
+msgstr "最低限"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Import Audio Unit Presets"

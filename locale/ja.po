@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-17 00:32+0900\n"
+"PO-Revision-Date: 2021-10-17 01:23+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -13125,7 +13125,7 @@ msgstr "新しく分離"
 #: src/menus/EditMenus.cpp
 #, c-format
 msgid "Joined %.2f seconds at t=%.2f"
-msgstr "%2$.2f 秒地点で %1$.2f 秒連結しました"
+msgstr "%2$.2f 秒地点で %1$.2f 秒結合しました"
 
 #: src/menus/EditMenus.cpp
 msgid "Join"
@@ -17685,15 +17685,15 @@ msgstr "左クリックで展開、右クリックで削除"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Left-Click to merge clips"
-msgstr "左クリックでクリップを連結"
+msgstr "左クリックでクリップを結合"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Merged Clips"
-msgstr "クリップを連結しました"
+msgstr "クリップを結合しました"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Merge"
-msgstr "連結"
+msgstr "結合"
 
 #: src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp
 msgid "Expanded Cut Line"

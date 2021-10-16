@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-16 23:12+0900\n"
+"PO-Revision-Date: 2021-10-16 23:15+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -262,7 +262,7 @@ msgstr "ファイル %s が書き込めません"
 #: libraries/lib-files/FileException.cpp
 #, c-format
 msgid "Audacity successfully wrote a file in %s but failed to rename it as %s."
-msgstr "ファイルを %s に書き込むことはできましたが、%s にリネームすることはできませんでした。"
+msgstr "ファイルを %s に書き込むことはできましたが、名前を %s に変更することはできませんでした。"
 
 #: libraries/lib-files/FileException.cpp
 #, c-format
@@ -2196,7 +2196,7 @@ msgstr "削除(&V)"
 
 #: src/BatchProcessDialog.cpp src/effects/Equalization.cpp
 msgid "&Rename..."
-msgstr "リネーム(&R)..."
+msgstr "名前を変更(&R)..."
 
 #: src/BatchProcessDialog.cpp
 msgid "Re&store"
@@ -8275,7 +8275,7 @@ msgid ""
 "Choose the 'Save/Manage Curves...' button and rename the 'unnamed' curve, then use that one."
 msgstr ""
 "このフィルター曲線をマクロの中で使うには、新しい名前を選択してください。\n"
-"「曲線の保存/管理...」を選択し、「無題」曲線をリネームしてからご使用ください。"
+"「曲線の保存/管理...」を選択し、「無題」曲線の名前を変更してからご使用ください。"
 
 #: src/effects/Equalization.cpp
 msgid "Filter Curve EQ needs a different name"
@@ -8490,7 +8490,7 @@ msgid ""
 "Rename 'unnamed' to save a new entry.\n"
 "'OK' saves all changes, 'Cancel' doesn't."
 msgstr ""
-"新しい曲線を保存するには「無題」をリネームしてください。\n"
+"新しい曲線を保存するには、名前を「無題」から変更してください。\n"
 "[OK] で変更を保存、[キャンセル] で取り消します。"
 
 #: src/effects/Equalization.cpp
@@ -8504,16 +8504,16 @@ msgstr "「無題」は特殊です"
 #: src/effects/Equalization.cpp
 #, c-format
 msgid "Rename '%s' to..."
-msgstr "「%s」をリネーム..."
+msgstr "「%s」の名前を変更..."
 
 #: src/effects/Equalization.cpp
 msgid "Rename..."
-msgstr "リネーム..."
+msgstr "名前を変更..."
 
 #: src/effects/Equalization.cpp
 #, c-format
 msgid "Rename '%s'"
-msgstr "「%s」をリネーム"
+msgstr "「%s」の名前を変更"
 
 #: src/effects/Equalization.cpp
 msgid "Name is the same as the original one"
@@ -18192,7 +18192,7 @@ msgstr "トラック名を設定"
 #: src/tracks/ui/CommonTrackControls.cpp
 #, c-format
 msgid "Renamed '%s' to '%s'"
-msgstr "「%s」から「%s」へリネーム"
+msgstr "「%s」から「%s」へ名前を変更"
 
 #: src/tracks/ui/CommonTrackControls.cpp
 msgid "Name Change"

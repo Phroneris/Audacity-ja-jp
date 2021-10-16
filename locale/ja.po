@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-16 23:17+0900\n"
+"PO-Revision-Date: 2021-10-16 23:26+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -5934,16 +5934,22 @@ msgstr "コマンド"
 msgid "Repeat %s"
 msgstr "%s を再適用"
 
+# ja: src/prefs/KeyConfigPrefs.cpp の方と記法を合わせる
 #: src/commands/CommandManager.cpp
 #, c-format
 msgid ""
 "\n"
 "* %s, because you have assigned the shortcut %s to %s"
 msgstr ""
+"\n"
+"   ・【%s】 … ショートカット「%s」は【%s】に割り当てられています"
 
+# ja: 例えばv3.0.5で「名前を付けて保存」のショートカットに "L" をあててからv3.1.0を起動すると、v3.1.0の新規メニュー項目「ループ (オン/オフ)」のデフォルトショートカット "L" と競合してこのメッセージが出る。このチェックは、前回起動時のバージョン（audacity.cfgに記述）が今回と異なる場合にメニュー項目初期化処理として行われる。
 #: src/commands/CommandManager.cpp
 msgid "The following commands have had their shortcuts removed, because their default shortcut is new or changed, and is the same shortcut that you have assigned to another command."
 msgstr ""
+"以下のコマンドのショートカットを削除しました。\n"
+"このバージョンでは該当コマンドのデフォルトショートカットが新設または変更されており、それが過去に他のコマンドに割り当てたショートカットと競合してしまうためです。"
 
 #: src/commands/CommandManager.cpp
 msgid "Shortcuts have been removed"
@@ -15837,7 +15843,7 @@ msgid ""
 "   *   \"%s\"  (because the shortcut '%s' is used by \"%s\")\n"
 msgstr ""
 "\n"
-"   ・ 【%s】 … ショートカット「%s」は【%s】に使われます\n"
+"   ・【%s】 … ショートカット「%s」は【%s】に使われます\n"
 
 #: src/prefs/KeyConfigPrefs.cpp
 msgid "Select an XML file containing Audacity keyboard shortcuts..."
@@ -15868,8 +15874,7 @@ msgid ""
 msgstr ""
 "\n"
 "以下のコマンドのショートカットを削除しました。\n"
-"取り込まれたファイル内に該当コマンドの記述はありませんが、\n"
-"他の新しいショートカットと競合してしまうためです。\n"
+"取り込まれたファイル内に該当コマンドの記述はありませんが、他の新しいショートカットと競合してしまうためです。\n"
 
 #: src/prefs/KeyConfigPrefs.cpp
 msgid "Loading Keyboard Shortcuts"

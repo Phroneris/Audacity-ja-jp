@@ -363,6 +363,7 @@ msgid ""
 あと3行目頭のtは恐らく~tの間違いか。nyファイルの方では\tとなってるが…。
 →タブ文字についても上記同様、追って修正される。
 →→修正された。
+→→っていうか、Nyquist（XLISP）はCommon Lispより原始的なので~tなんて使えない。
 
 Regular Interval Labelsが、音声を選択して適当にパラメータ入れて実行しても
 "Nyquist returned the value: 2"と出るだけでよくわからない。
@@ -413,55 +414,27 @@ Nyquist Plug-in Installerで、改行に "~%" ではなく "\n" が使われて�
 
 
 
-■ Lispフォーマット
+■ LISPフォーマットディレクティブ
 
-  (format 出力先 フォーマット arg0 ... argN )
-                      ↓
-    ~ [[ param1 ] , ][[ param2 ] , ] ... [ paramN ][ : ][ @ ] 指定文字
-  
-    パラメータになり得るのは
-    ・整数
-    ・'      : 文字をパラメータに
-    ・V又はv : 引数を消費してそれをパラメータに
-    ・#      : 引数の残り数をパラメータに
-
-□ 単純出力 : ~N%とか書くとNの数だけ連続出力。
+□ 単純出力
   ~% : 改行。
-  ~& : カーソル位置が行頭でない場合に改行。
-  ~| : 改ページ。
   ~~ : チルダ自体。
 
 □ 引数1個消費出力
   ~a : Aesthetic "美的" 出力。
        引数をprinc出力（エスケープやクォートのない出力）。
-       パラメータ mincol, colinc, minpad, padchar は、指定個数の文字列を前後に挿入する類のやつ。
   ~s : Standard "標準" 出力。
-       引数をprin1出力（普通の、Lisp用出力）。パラメータは~aと同じ。
-  ~w : Write。なんかとにかく出力。
-  ~c : 文字。
-  ~d : 整数。
-       パラメータ mincol, padchar, commachar, comma-interval は、符号と桁埋めと桁区切り。
-  ~b : バイナリ。         パラメータは~dと同じ。
-  ~o : 8進数。            パラメータ同じ。
-  ~x : 16進数。           パラメータ同じ。
-  ~r : Radix "基数" 進数。パラメータは似たり寄ったり。
-  ~f : 浮動小数点数。
-       パラメータ w, d, k, overflowchar, padchar は、符号と桁埋めと指数と桁合わせ。
-  ~e : Exponential "指数" 浮動小数点数。e+1とか書くやつ。   パラメータは~fと似たり寄ったり。
-  ~g : General "一般" 浮動小数点数。引数の絶対値で~eか~fに。パラメータは似たり寄ったり。
-  ~$ : Monetary "通貨" 浮動小数点数。                       パラメータは似たり寄ったり。
+       引数をprin1出力（普通の、LISP用出力）。
 
 □ レイアウト調整
-  ~t        : タブ。パラメータ colnum, colinc は、位置（数）と相対化。
-  ~< ... ~> : Justification "寄せ"。中に書いたフォーマットを左寄せや右寄せにする。
   ~(改行) :
        直後の改行を含め、次にまともな文字が現れるまでの空白文字を全て無視する。
-       ":" で修飾すると直後の改行だけを無視、"@" だと直後の改行だけを保持。
 
-□ 制御
-  ~*, ~[ ... ~], ~{ ... ~}, ~?, ~( ... ~), ~p, ~^
-
-出典: http://super.para.media.kyoto-u.ac.jp/~tasuku/format-func.html
+出典: http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-121.htm
+参考: http://ais.sys.i.kyoto-u.ac.jp/~task/format-func.html
+      AudacityのXLISPよりも大幅に拡張されている "Common Lisp" の解説。
+      日本語なので一見わかりやすいが、各ディレクティブのパラメータ機能や ~d 等の拡張ディレクティブ、
+      ~{ ... ~} 等の制御ディレクティブといったほとんどの内容が、Audacityでは使えない無縁なもの。
 
 
 

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-07-20 03:20+0900\n"
+"PO-Revision-Date: 2021-10-16 22:20+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -324,11 +324,13 @@ msgid "(%s)"
 msgstr "(%s)"
 
 #: libraries/lib-files/FileNames.cpp
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "%s does not have write permissions."
-msgstr "ディレクトリ %s には書き込み権限がありません"
+msgstr ""
+"\n"
+"%s には書き込み権限がありません。"
 
 #: libraries/lib-files/FileNames.cpp src/AudioIO.cpp
 #: src/ProjectAudioManager.cpp src/SelectUtilities.cpp
@@ -496,7 +498,7 @@ msgstr ""
 
 #: libraries/lib-screen-geometry/ViewInfo.cpp
 msgid "&Loop On/Off"
-msgstr ""
+msgstr "ループ (オン/オフ) (&L)"
 
 #: libraries/lib-strings/Internat.cpp
 msgid "Unable to determine"
@@ -1457,9 +1459,8 @@ msgid "App update checking and error reporting require network access. These fea
 msgstr "更新確認と障害報告には、ネットワーク接続が必要です。これらの機能のご利用はあくまで任意です。"
 
 #: src/AdornedRulerPanel.cpp
-#, fuzzy
 msgid "Click and drag to define a looping region."
-msgstr "クリック＆ドラッグで選択領域を伸縮します。"
+msgstr "クリック＆ドラッグでループ領域を指定します。"
 
 #: src/AdornedRulerPanel.cpp
 msgid "Timeline actions disabled during recording"
@@ -1553,16 +1554,16 @@ msgstr "ドラッグ選択を有効化(&D)"
 msgid "Update display while playing"
 msgstr "再生中も表示を更新(&P)"
 
+# ja: 独自アクセスキー
 #. i18n-hint Clear is a verb
 #: src/AdornedRulerPanel.cpp
-#, fuzzy
 msgid "Clear Looping Region"
-msgstr "ログをクリア"
+msgstr "ループ範囲の指定を解除(&C)"
 
+# ja: 独自アクセスキー
 #: src/AdornedRulerPanel.cpp
-#, fuzzy
 msgid "Set Loop To Selection"
-msgstr "選択範囲に合わせる"
+msgstr "選択範囲をループ範囲に設定(&S)"
 
 # ja: 独自アクセスキー
 #: src/AdornedRulerPanel.cpp
@@ -1781,12 +1782,13 @@ msgstr "起動に際して回復不能なエラーが発生しました"
 msgid "set max disk block size in bytes"
 msgstr "最大ディスクブロックをバイトで設定"
 
+# ja: audacity --help で出る説明
 #. i18n-hint: brief help message for Audacity's command-line options
 #. A journal contains a sequence of user interface interactions to be repeated
 #. "log," "trail," "trace" have somewhat similar meanings
 #: src/AudacityApp.cpp
 msgid "replay a journal file"
-msgstr ""
+msgstr "実行記録ファイルを再現"
 
 #. i18n-hint: This displays a list of available options
 #: src/AudacityApp.cpp
@@ -2562,12 +2564,9 @@ msgid "(%d): %s"
 msgstr "(%d): %s"
 
 #: src/DBConnection.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to set page size for database %s"
-msgstr ""
-"データベースファイルを開くことに失敗しました:\n"
-"\n"
-"%s"
+msgstr "データベース「%s」のページサイズの設定に失敗しました"
 
 #: src/DBConnection.cpp
 #, c-format
@@ -3152,7 +3151,7 @@ msgstr "[[https://www.audacityteam.org/community/|コミュニティ]]に参加�
 #: src/HelpText.cpp
 #, c-format
 msgid "What's new in Audacity %s"
-msgstr ""
+msgstr "Audacity %s の更新内容"
 
 #: src/HelpText.cpp
 msgid "How to get help"
@@ -3257,9 +3256,8 @@ msgid "&History..."
 msgstr "操作履歴(&H)..."
 
 #: src/JournalEvents.cpp
-#, fuzzy
 msgid "Journal recording failed"
-msgstr "ファイル復号エラー"
+msgstr "実行記録の作成に失敗しました"
 
 #: src/LabelDialog.cpp
 msgid "Edit Labels"
@@ -3991,7 +3989,7 @@ msgstr "適合するトラックをもっと選択してください"
 #, c-format
 msgctxt "clip name template"
 msgid "%s #%d"
-msgstr ""
+msgstr "%s #%d"
 
 #: src/ProjectAudioManager.cpp
 msgid "Recorded Audio"
@@ -4763,10 +4761,10 @@ msgstr "回復"
 
 #. i18n-hint Name default name assigned to a clip on track import
 #: src/ProjectFileManager.cpp
-#, fuzzy, c-format
+#, c-format
 msgctxt "clip name template"
 msgid "%s %d"
-msgstr "%1$s、%3$d個中%2$d個目"
+msgstr "%s %d"
 
 #: src/ProjectFileManager.cpp
 #, c-format
@@ -5855,14 +5853,14 @@ msgstr "再サンプリングに失敗しました。"
 #, c-format
 msgctxt "clip name template"
 msgid "%s.%i"
-msgstr ""
+msgstr "%s.%i"
 
 #. i18n-hint Template for clip name generation on inserting new empty clip
 #: src/WaveTrack.cpp
 #, c-format
 msgctxt "clip name template"
 msgid "%s %i"
-msgstr ""
+msgstr "%s %i"
 
 #: src/WaveTrack.cpp
 msgid "There is not enough room available to paste the selection"
@@ -12878,12 +12876,10 @@ msgstr "取り込む量:"
 msgid "Sample rate:"
 msgstr "サンプリング周波数:"
 
-# ja: [解析] > [無音の検出] との区別のために、「の」を削除。
 #. i18n-hint: Guess format of raw file
 #: src/import/ImportRaw.cpp
-#, fuzzy
 msgid "Detect"
-msgstr "無音検出"
+msgstr "検出"
 
 #: src/import/ImportRaw.cpp src/menus/FileMenus.cpp
 msgid "&Import"
@@ -12916,10 +12912,10 @@ msgstr "%s 右"
 #. clips.
 #.
 #: src/menus/ClipMenus.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s, %d of %d clip %s"
 msgid_plural "%s %s, %d of %d clips %s"
-msgstr[0] "クリップ%3$d個中%2$d個目の%1$s、%4$s"
+msgstr[0] "%2$sの%1$s、%4$d個中%3$d個目のクリップ、%5$s"
 
 #: src/menus/ClipMenus.cpp
 msgid "start"
@@ -12940,10 +12936,10 @@ msgstr "終わり"
 #. clips.
 #.
 #: src/menus/ClipMenus.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s and %s %s, %d and %d of %d clip %s"
 msgid_plural "%s %s and %s %s, %d and %d of %d clips %s"
-msgstr[0] "クリップ%5$d個中%2$d個目の%1$sと%4$d個目の%3$s、%6$s"
+msgstr[0] "%2$sの%1$sと%4$sの%3$s、%7$d個中%5$d個目と%6$d個目のクリップ、%8$s"
 
 #. i18n-hint:
 #. first string is the name of a clip,
@@ -12952,10 +12948,10 @@ msgstr[0] "クリップ%5$d個中%2$d個目の%1$sと%4$d個目の%3$s、%6$s"
 #. last number counts all clips,
 #. last string names a track
 #: src/menus/ClipMenus.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "%s, %d of %d clip %s"
 msgid_plural "%s, %d of %d clips %s"
-msgstr[0] "クリップ%3$d個中%2$d個目の%1$s、%4$s"
+msgstr[0] "%1$s、%3$d個中%2$d個目のクリップ、%4$s"
 
 #: src/menus/ClipMenus.cpp
 msgid "Time shifted clips to the right"
@@ -13284,9 +13280,8 @@ msgid "&Full Screen (on/off)"
 msgstr "フルスクリーン表示 (オン/オフ) (&F)"
 
 #: src/menus/FileMenus.cpp
-#, fuzzy
 msgid "Cannot proceed to export."
-msgstr "書き出すプリセットがありません"
+msgstr "書き出しを続行できません。"
 
 #: src/menus/FileMenus.cpp
 #, c-format
@@ -13822,19 +13817,19 @@ msgstr "..."
 
 #: src/menus/PluginMenus.cpp
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 #. i18n-hint a "journal" is a text file that records
 #. the user's interactions with the application
 #: src/menus/PluginMenus.cpp
 msgid "A journal will be recorded after Audacity restarts."
-msgstr ""
+msgstr "Audacity の再起動後に実行記録が作成されます。"
 
 #. i18n-hint a "journal" is a text file that records
 #. the user's interactions with the application
 #: src/menus/PluginMenus.cpp
 msgid "No journal will be recorded after Audacity restarts."
-msgstr ""
+msgstr "Audacity の再起動後に実行記録は作成されません。"
 
 #: src/menus/PluginMenus.cpp
 #, c-format
@@ -13918,11 +13913,12 @@ msgstr "録音エラーをシミュレーション(&C)"
 msgid "Detect Upstream Dropouts"
 msgstr "ドロップアウトを検出(&D)"
 
+# ja: 独自アクセスキー
 #. i18n-hint a "journal" is a text file that records
 #. the user's interactions with the application
 #: src/menus/PluginMenus.cpp
 msgid "Write Journal"
-msgstr ""
+msgstr "実行記録の作成(&W)"
 
 #. i18n-hint: Scriptables are commands normally used from Python, Perl etc.
 #: src/menus/PluginMenus.cpp
@@ -14788,15 +14784,13 @@ msgstr "ラベルトラックにラベルがありません"
 
 #. i18n-hint Sets a starting point for looping play
 #: src/menus/TransportMenus.cpp
-#, fuzzy
 msgid "Set Loop &In"
-msgstr "拡大(&I)"
+msgstr "ループの始まりを設定(&I)"
 
 #. i18n-hint Sets an ending point for looping play
 #: src/menus/TransportMenus.cpp
-#, fuzzy
 msgid "Set Loop &Out"
-msgstr "縮小(&O)"
+msgstr "ループの終わりを設定(&O)"
 
 #: src/menus/TransportMenus.cpp
 msgid ""
@@ -14855,9 +14849,8 @@ msgid "Play/Stop and &Set Cursor"
 msgstr "再生/停止してカーソルを再配置(&S)"
 
 #: src/menus/TransportMenus.cpp
-#, fuzzy
 msgid "Play &Once/Stop"
-msgstr "再生/停止(&A)"
+msgstr "一度だけ再生/停止(&O)"
 
 #: src/menus/TransportMenus.cpp
 msgid "&Pause"
@@ -14890,17 +14883,15 @@ msgstr "パンチ＆ロール録音(&L)"
 
 #: src/menus/TransportMenus.cpp
 msgid "&Looping"
-msgstr ""
+msgstr "ループ(&L)"
 
 #: src/menus/TransportMenus.cpp
-#, fuzzy
 msgid "&Clear Loop"
-msgstr "ログをクリア"
+msgstr "ループを解除(&C)"
 
 #: src/menus/TransportMenus.cpp
-#, fuzzy
 msgid "&Set Loop to Selection"
-msgstr "選択範囲を拡大(&Z)"
+msgstr "選択範囲をループ範囲に設定(&S)"
 
 #: src/menus/TransportMenus.cpp
 msgid "R&escan Audio Devices"
@@ -14940,9 +14931,8 @@ msgstr "録音と再生(&R)"
 
 #. i18n-hint: (verb) Start playing audio
 #: src/menus/TransportMenus.cpp
-#, fuzzy
 msgid "Pl&ay Once"
-msgstr "再生(&A)"
+msgstr "一度だけ再生(&A)"
 
 #. i18n-hint: (verb) Stop playing audio
 #: src/menus/TransportMenus.cpp
@@ -14991,9 +14981,8 @@ msgid "&Play-at-Speed"
 msgstr "変速再生(&P)"
 
 #: src/menus/TransportMenus.cpp
-#, fuzzy
 msgid "Play-at-Speed &Once"
-msgstr "変速再生"
+msgstr "一度だけ変速再生(&O)"
 
 #: src/menus/TransportMenus.cpp
 msgid "Play C&ut Preview-at-Speed"
@@ -15325,9 +15314,8 @@ msgid "Choose a location to place the temporary directory"
 msgstr "一時ディレクトリの設置場所を指定"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "Cannot set the preference."
-msgstr "環境設定を取得..."
+msgstr "環境設定を設定できません。"
 
 #: src/prefs/DirectoriesPrefs.cpp
 msgid "unavailable - above location doesn't exist"
@@ -15338,23 +15326,26 @@ msgid "Choose a location"
 msgstr "場所を選んでください"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Directory %s does not exist. Create it?"
-msgstr "ディレクトリ %s はありません。作成しますか？"
+msgstr ""
+"\n"
+"ディレクトリ %s はありません。作成しますか？"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "Directory creation failed."
-msgstr "ディレクトリダイアログ"
+msgstr "ディレクト作成に失敗しました。"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "%s"
-msgstr "%s:"
+msgstr ""
+"\n"
+"%s"
 
 #: src/prefs/DirectoriesPrefs.cpp
 #, c-format
@@ -15362,14 +15353,12 @@ msgid "Directory %s is not suitable (at risk of being cleaned out)"
 msgstr "ディレクトリ %s は適切ではありません (クリーンアップされてしまう危険性あり)"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "'Temporary Directory' cannot be set."
-msgstr "一時ファイルのディレクトリに FAT ドライブのものは指定できません。"
+msgstr "「一時ディレクトリ」を設定できません。"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "'Temporary files' directory cannot be set."
-msgstr "一時ファイルのディレクトリに FAT ドライブのものは指定できません。"
+msgstr "「一時ファイル」のディレクトリを設定できません。"
 
 #: src/prefs/DirectoriesPrefs.cpp
 #, c-format
@@ -15385,28 +15374,24 @@ msgid "Temp Directory Update"
 msgstr "一時ディレクトリの更新"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "'Open' directory cannot be set."
-msgstr "一時ファイルのディレクトリに FAT ドライブのものは指定できません。"
+msgstr "「開く」のディレクトリを設定できません。"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "'Save' directory cannot be set."
-msgstr "一時ファイルのディレクトリに FAT ドライブのものは指定できません。"
+msgstr "「保存」のディレクトリを設定できません。"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "'Import' directory cannot be set."
-msgstr "一時ファイルのディレクトリに FAT ドライブのものは指定できません。"
+msgstr "「取り込み」のディレクトリを設定できません。"
 
 #: src/prefs/DirectoriesPrefs.cpp
-#, fuzzy
 msgid "'Export' directory cannot be set."
-msgstr "Audio Unit プリセットの書き出し"
+msgstr "「書き出し」のディレクトリを設定できません。"
 
 #: src/prefs/DirectoriesPrefs.cpp
 msgid "'Macro Output' directory cannot be set."
-msgstr ""
+msgstr "「マクロ出力」のディレクトリを設定できません。"
 
 #: src/prefs/EffectsPrefs.cpp
 msgid "Preferences for Effects"
@@ -17095,9 +17080,8 @@ msgid "Skip to End"
 msgstr "最後に移動"
 
 #: src/toolbars/ControlToolBar.cpp
-#, fuzzy
 msgid "Play Once"
-msgstr "1 秒だけ再生(&O)"
+msgstr "一度だけ再生"
 
 #: src/toolbars/ControlToolBar.cpp
 msgid "Record New Track"
@@ -17550,9 +17534,8 @@ msgid "Playback Speed"
 msgstr "再生速度"
 
 #: src/toolbars/TranscriptionToolBar.cpp
-#, fuzzy
 msgid "Play-at-Speed Once"
-msgstr "変速再生"
+msgstr "一度だけ変速再生"
 
 #. i18n-hint: Clicking this menu item shows the toolbar
 #. for transcription (currently just vary play speed)
@@ -17562,7 +17545,7 @@ msgstr "変速再生ツールバー(&Y)"
 
 #: src/tracks/labeltrack/ui/LabelGlyphHandle.cpp
 msgid "Drag label. Hold shift and drag to move all labels on the same track."
-msgstr ""
+msgstr "ラベルをドラッグします。Shift+ドラッグで同じトラックのすべてのラベルを移動できます。"
 
 #: src/tracks/labeltrack/ui/LabelGlyphHandle.cpp
 msgid "Drag one or more label boundaries."
@@ -17765,59 +17748,51 @@ msgid "S&pectrogram Settings..."
 msgstr "スペクトログラム設定(&P)..."
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp
-#, fuzzy
 msgid "Click and drag to move clip boundary in time"
-msgstr "クリック＆ドラッグでトラックを時間移動"
+msgstr "クリック＆ドラッグでクリップの境界を時間移動"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp
-#, fuzzy
 msgid "Clip-Trim-Left"
-msgstr "クリップを左へ(&E)"
+msgstr "クリップの左境界を編集"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp
 #, c-format
 msgid "Moved by %.02f"
-msgstr ""
+msgstr "%.02f だけ移動しました"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp
-#, fuzzy
 msgid "Clip-Trim-Right"
-msgstr "クリップを右へ(&H)"
+msgstr "クリップの右境界を編集"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-#, fuzzy
 msgid "Set Wave Clip Name"
-msgstr "トラック名を設定"
+msgstr "波形クリップ名を設定"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-#, fuzzy
 msgid "Click and drag to select text"
-msgstr "クリック＆ドラッグで音声を選択"
+msgstr "クリック＆ドラッグでテキストを選択"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-#, fuzzy
 msgid "Modified Clip Name"
-msgstr "ラベルを変更しました"
+msgstr "クリップ名を変更しました"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-#, fuzzy
 msgid "Clip Name Edit"
-msgstr "サンプルの編集"
+msgstr "クリップ名の編集"
 
 #. i18n-hint:
 #. string is the name of a clip
 #. first number is the position of that clip in a sequence of clips,
 #. second number counts the clips
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "%s, %d of %d clip"
 msgid_plural "%s, %d of %d clips"
-msgstr[0] "クリップ%3$d個中%2$d個目の%1$s、%4$s"
+msgstr[0] "%1$s、クリップ%3$d個中%2$d個目"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackAffordanceControls.cpp
-#, fuzzy
 msgid "Rename Clip..."
-msgstr "リネーム..."
+msgstr "クリップ名を変更..."
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "&Format"
@@ -18050,19 +18025,16 @@ msgid "Close sub-view"
 msgstr "サブ表示を閉じる"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-#, fuzzy
 msgid "Split Clip"
-msgstr "クリップ設定"
+msgstr "クリップを分離"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-#, fuzzy
 msgid "Mute/Unmute Track"
-msgstr "フォーカスしたトラックをミュート/非ミュート(&M)"
+msgstr "トラックをミュート/非ミュート"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
-#, fuzzy
 msgid "Rename clip..."
-msgstr "リネーム..."
+msgstr "クリップ名を変更..."
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp
 msgid "Zoom x1/2"
@@ -18162,27 +18134,23 @@ msgstr "対数補間(&I)"
 #. i18n-hint Appears on hovering mouse over clip affordance
 #: src/tracks/ui/AffordanceHandle.cpp
 msgid "Drag clips to reposition them. Hold Shift and drag to move all clips on the same track."
-msgstr ""
+msgstr "ドラッグでクリップを移動させます。Shift+ドラッグで同じトラックのすべてのクリップを移動できます。"
 
 #: src/tracks/ui/BackgroundCell.cpp
-#, fuzzy
 msgid "Add Mono Track"
-msgstr "モノラルトラック(&M)"
+msgstr "モノラルトラックを追加"
 
 #: src/tracks/ui/BackgroundCell.cpp
-#, fuzzy
 msgid "Add Stereo Track"
-msgstr "ステレオトラック(&S)"
+msgstr "ステレオトラックを追加"
 
 #: src/tracks/ui/BackgroundCell.cpp
-#, fuzzy
 msgid "Add Label Track"
-msgstr "ラベルトラック"
+msgstr "ラベルトラックを追加"
 
 #: src/tracks/ui/BackgroundCell.cpp
-#, fuzzy
 msgid "Export Audio..."
-msgstr "音声の書き出し(&E)..."
+msgstr "音声の書き出し..."
 
 #: src/tracks/ui/BrushHandle.cpp
 #, fuzzy
@@ -18433,20 +18401,18 @@ msgstr "左=拡大、右=縮小、中央=通常"
 
 #. i18n-hint: Title of the dialog no updates available.
 #: src/update/NoUpdatesAvailableDialog.cpp
-#, fuzzy
 msgid "No Updates Available"
-msgstr "様々な環境に対応"
+msgstr "更新はありません"
 
 #: src/update/NoUpdatesAvailableDialog.cpp
-#, fuzzy
 msgid "Check for Updates"
-msgstr "更新を確認する(&C)"
+msgstr "更新の確認"
 
 #. i18n-hint: %s is replaced with 'Preferences > Application'.
 #: src/update/NoUpdatesAvailableDialog.cpp
 #, c-format
 msgid "If you want to change your preference for automatic updates checking, you can find it in %s."
-msgstr ""
+msgstr "更新の自動確認についての設定を変更したい場合は、%s から行うことができます。"
 
 #. i18n-hint: Hyperlink title that opens Preferences dialog on Application page and is substituted into "... you can find it in %s." string.
 #. i18n-hint: a page in the Preferences dialog; use same name
@@ -18470,10 +18436,9 @@ msgid "Update data was corrupted."
 msgstr "更新データが破損しました。"
 
 #: src/update/UpdateManager.cpp
-#, fuzzy
 msgctxt "update dialog"
 msgid "Error downloading update"
-msgstr "更新ダウンロードエラー。"
+msgstr "更新ダウンロードエラー"
 
 #: src/update/UpdateManager.cpp
 msgctxt "update dialog"
@@ -18481,15 +18446,13 @@ msgid "Can't open the Audacity download link."
 msgstr "Audacity のダウンロードリンクを開けません。"
 
 #: src/update/UpdateManager.cpp
-#, fuzzy
 msgid "Audacity update"
-msgstr "Audacity 音声"
+msgstr "Audacity の更新"
 
-# ja: 独自アクセスキー
 #: src/update/UpdateManager.cpp
-#, fuzzy, c-format
+#, c-format
 msgid "Downloading %s"
-msgstr "ダウンロード(&D)"
+msgstr "%s をダウンロード中"
 
 #. i18n-hint: Title of the app update notice dialog.
 #: src/update/UpdateNoticeDialog.cpp
@@ -19346,9 +19309,8 @@ msgstr "Steve Daulton"
 #: plug-ins/eq-xml-to-txt-converter.ny plug-ins/label-sounds.ny
 #: plug-ins/limiter.ny plug-ins/noisegate.ny plug-ins/sample-data-export.ny
 #: plug-ins/sample-data-import.ny plug-ins/spectral-delete.ny
-#, fuzzy
 msgid "GNU General Public License v2.0 or later"
-msgstr "GNU General Public License version 2 (またはそれ以降) の下に公開"
+msgstr "GNU General Public License v2.0 (またはそれ以降)"
 
 #: plug-ins/StudioFadeOut.ny
 #, lisp-format

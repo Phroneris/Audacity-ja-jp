@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-17 01:23+0900\n"
+"PO-Revision-Date: 2021-10-18 18:46+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -6931,7 +6931,7 @@ msgstr "78"
 #: src/effects/ladspa/LadspaEffect.cpp src/effects/lv2/LV2Effect.cpp
 #: src/effects/nyquist/Nyquist.cpp
 msgid "n/a"
-msgstr "n/a"
+msgstr "情報なし"
 
 # ja: 独自アクセスキー
 #: src/effects/ChangeSpeed.cpp
@@ -13818,13 +13818,16 @@ msgstr "フォーカスするトラックを切り替え(&D)"
 msgid "Uncategorized"
 msgstr "未分類"
 
+# ja: エフェクトがインタラクティブである（コントロールウィジェットを持つ）場合に、メニュー項目のエフェクト名の末尾に付加される。
 #: src/menus/PluginMenus.cpp
 msgid "..."
 msgstr "..."
 
+# ja: 独自アクセスキー
+# ja: エフェクトのグループ化をオンにしている場合に、グループ名が空であるエフェクトが2個以上あるとグループ名として表示される。例えば「Grouped by Publisher（発行元でグループ化）」の場合は「;author ""」とすればそうなる。一方、空文字列すら指定しなかったり行自体を削除したりすると、グループ名は「n/a（情報なし）」になる。
 #: src/menus/PluginMenus.cpp
 msgid "Unknown"
-msgstr "不明"
+msgstr "不明(&U)"
 
 #. i18n-hint a "journal" is a text file that records
 #. the user's interactions with the application

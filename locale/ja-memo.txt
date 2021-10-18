@@ -179,9 +179,6 @@ msgid "Some Command"
 msgid "%s, %s"
 
 #: src/menus/PluginMenus.cpp
-msgid "Unknown"
-
-#: src/menus/PluginMenus.cpp
 #, c-format
 msgid "Plug-in %d to %d"
 
@@ -297,6 +294,14 @@ msgid "Silence"
 →分離して追加された…が、今度は「Silence を元に戻す」になっちゃった。
   しかも、ジェネレーターのSilenceの翻訳が効かない。
 →翻訳が効くように修正された。
+
+#: src/menus/PluginMenus.cpp
+msgid "Unknown"
+これ何？
+→エフェクトのグループ化をオンにしている場合に、
+  グループ名が空であるエフェクトが2個以上あるとグループ名として表示される。
+  例えば「Grouped by Publisher（発行元でグループ化）」の場合は「;author ""」とすればそうなる。
+  一方、空文字列すら指定しなかったり行自体を削除したりすると、グループ名は「n/a（情報なし）」になる。
 
 
 

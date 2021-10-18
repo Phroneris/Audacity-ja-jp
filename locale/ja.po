@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-18 20:46+0900\n"
+"PO-Revision-Date: 2021-10-18 21:55+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -1162,11 +1162,12 @@ msgstr "%s (%s、%s、%s、%s、%s)"
 msgid "About %s"
 msgstr "%s について"
 
+# ja: 独自アクセスキー
 #. i18n-hint: In most languages OK is to be translated as OK.  It appears on a button.
 #: src/AboutDialog.cpp src/Dependencies.cpp src/SplashDialog.cpp
 #: src/effects/nyquist/Nyquist.cpp src/widgets/MultiDialog.cpp
 msgid "OK"
-msgstr "OK"
+msgstr "OK(&O)"
 
 #. i18n-hint: First and third %s will be the program's name,
 #. second %s will be "volunteers", fourth "available"
@@ -19065,9 +19066,10 @@ msgstr "処理時間:"
 msgid "Remaining Time:"
 msgstr "残り時間:"
 
+# ja: 独自アクセスキー
 #: src/widgets/ProgressDialog.cpp
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "キャンセル(&C)"
 
 #: src/widgets/ProgressDialog.cpp
 msgid "Are you sure you wish to cancel?"

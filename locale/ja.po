@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-18 18:46+0900\n"
+"PO-Revision-Date: 2021-10-18 20:06+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -11813,7 +11813,7 @@ msgstr "オプション:"
 
 #: src/export/ExportMultiple.cpp
 msgid "Split files based on:"
-msgstr "ファイル分離基準:"
+msgstr "ファイル分割基準:"
 
 #: src/export/ExportMultiple.cpp
 msgid "Include audio before first label"
@@ -13112,15 +13112,15 @@ msgstr "音声のトリミング"
 #: src/menus/EditMenus.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Split"
-msgstr "分離"
+msgstr "分割"
 
 #: src/menus/EditMenus.cpp
 msgid "Split to new track"
-msgstr "新しいトラックに分離"
+msgstr "新しいトラックに分割"
 
 #: src/menus/EditMenus.cpp
 msgid "Split New"
-msgstr "新しく分離"
+msgstr "新しく分割"
 
 #: src/menus/EditMenus.cpp
 #, c-format
@@ -13134,11 +13134,11 @@ msgstr "結合"
 #: src/menus/EditMenus.cpp
 #, c-format
 msgid "Detached %.2f seconds at t=%.2f"
-msgstr "%2$.2f 秒地点で %1$.2f 秒分離しました"
+msgstr "%2$.2f 秒地点で %1$.2f 秒の無音を除去して分割しました"
 
 #: src/menus/EditMenus.cpp
 msgid "Detach"
-msgstr "分離"
+msgstr "無音部分を除去して分割"
 
 #: src/menus/EditMenus.cpp
 msgid "Metadata Tags"
@@ -13212,7 +13212,7 @@ msgstr "結合(&J)"
 
 #: src/menus/EditMenus.cpp src/menus/LabelMenus.cpp
 msgid "Detac&h at Silences"
-msgstr "無音部分の除去(&H)"
+msgstr "無音部分を除去して分割(&H)"
 
 #: src/menus/EditMenus.cpp
 msgid "&Metadata..."
@@ -13667,12 +13667,12 @@ msgstr "ラベル付き音声の結合"
 #. Audacity has done.
 #: src/menus/LabelMenus.cpp
 msgid "Detached labeled audio regions"
-msgstr "ラベル付き音声領域を分離しました"
+msgstr "ラベル付き音声領域で無音を除去して分割しました"
 
 #. i18n-hint: (verb)
 #: src/menus/LabelMenus.cpp
 msgid "Detach Labeled Audio"
-msgstr "ラベル付き音声領域の分離"
+msgstr "ラベル付き音声領域で無音を除去して分割"
 
 #: src/menus/LabelMenus.cpp
 msgid "&Labels"
@@ -17918,11 +17918,11 @@ msgstr "ステレオチャンネルのスワップ(&C)"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Spl&it Stereo Track"
-msgstr "ステレオトラックを分離(&I)"
+msgstr "ステレオトラックを分割(&I)"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Split Stereo to Mo&no"
-msgstr "ステレオからモノラルに分離(&N)"
+msgstr "ステレオからモノラルに分割(&N)"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Mono"
@@ -17964,17 +17964,17 @@ msgstr "チャンネルのスワップ"
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #, c-format
 msgid "Split stereo track '%s'"
-msgstr "ステレオトラック「%s」を分離"
+msgstr "ステレオトラック「%s」を分割"
 
 #. i18n-hint: The string names a track
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #, c-format
 msgid "Split Stereo to Mono '%s'"
-msgstr "ステレオからモノラルへ「%s」"
+msgstr "「%s」をステレオからモノラルに分割"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 msgid "Split to Mono"
-msgstr "ステレオからモノラルへ"
+msgstr "モノラルに分割"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
 #, c-format
@@ -18035,7 +18035,7 @@ msgstr "サブ表示を閉じる"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Split Clip"
-msgstr "クリップを分離"
+msgstr "クリップを分割"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Mute/Unmute Track"

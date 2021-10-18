@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-18 20:13+0900\n"
+"PO-Revision-Date: 2021-10-18 20:46+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -5002,7 +5002,7 @@ msgstr "タイマー"
 #: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
 #: src/toolbars/ToolsToolBar.cpp
 msgid "Tools"
-msgstr "道具箱"
+msgstr "ツール"
 
 #: src/Screenshot.cpp src/commands/ScreenshotCommand.cpp
 #: src/toolbars/ControlToolBar.cpp
@@ -13882,11 +13882,11 @@ msgstr "前回の解析を再適用"
 
 #: src/menus/PluginMenus.cpp src/toolbars/ToolsToolBar.cpp
 msgid "T&ools"
-msgstr "道具箱(&O)"
+msgstr "ツール(&O)"
 
 #: src/menus/PluginMenus.cpp
 msgid "Repeat Last Tool"
-msgstr "前回の「道具箱」を再適用"
+msgstr "前回のツールを再適用"
 
 #: src/menus/PluginMenus.cpp
 msgid "&Macros..."
@@ -17176,7 +17176,7 @@ msgstr "入力デバイスの情報がありません。"
 #. that manages devices
 #: src/toolbars/DeviceToolBar.cpp
 msgid "&Device Toolbar"
-msgstr "デバイスツールバー(&D)"
+msgstr "デバイス ツールバー(&D)"
 
 #: src/toolbars/EditToolBar.cpp
 msgid "Cut selection"
@@ -17267,13 +17267,13 @@ msgstr "録音レベル"
 #. with the recording level meters
 #: src/toolbars/MeterToolBar.cpp
 msgid "&Recording Meter Toolbar"
-msgstr "録音メーターツールバー(&R)"
+msgstr "録音メーター ツールバー(&R)"
 
 #. i18n-hint: Clicking this menu item shows the toolbar
 #. with the playback level meter
 #: src/toolbars/MeterToolBar.cpp
 msgid "&Playback Meter Toolbar"
-msgstr "再生メーターツールバー(&P)"
+msgstr "再生メーター ツールバー(&P)"
 
 #: src/toolbars/MixerToolBar.cpp
 msgid "Recording Volume"
@@ -17305,7 +17305,7 @@ msgstr "再生音量 (使用不能。システムミキサーをお使いくだ�
 #. with the mixer
 #: src/toolbars/MixerToolBar.cpp
 msgid "Mi&xer Toolbar"
-msgstr "ミキサーツールバー(&X)"
+msgstr "ミキサー ツールバー(&X)"
 
 #: src/toolbars/ScrubbingToolBar.cpp
 msgid "Seek"
@@ -17359,7 +17359,7 @@ msgstr "スクラブルーラーを非表示"
 #. that enables Scrub or Seek playback and Scrub Ruler
 #: src/toolbars/ScrubbingToolBar.cpp
 msgid "Scru&b Toolbar"
-msgstr "スクラブツールバー(&B)"
+msgstr "スクラブ ツールバー(&B)"
 
 #: src/toolbars/SelectionBar.cpp
 msgid "Project Rate (Hz)"
@@ -17504,7 +17504,7 @@ msgstr "マルチツール"
 #. that has some tools in it
 #: src/toolbars/ToolsToolBar.cpp
 msgid "T&ools Toolbar"
-msgstr "道具箱ツールバー(&O)"
+msgstr "ツール ツールバー(&O)"
 
 #: src/toolbars/ToolsToolBar.cpp
 msgid "&Selection Tool"

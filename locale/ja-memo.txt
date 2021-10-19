@@ -70,11 +70,11 @@ Transifexの用語集に用語表現をある程度まとめてある→ https:/
 ・"split"         : ◎「分割」              ×「分離」
 ・"transport"     : ◎「録音と再生」        ×「トランスポート」
 ・"volume"        : ◎「音量」              ×「ボリューム」
+・"update"        : ◎「更新」              ×「アップデート」
+・"web"           : ◎「ウェブ」            ×「Web」「web」
 ・"import/export" : ◎「取り込み/書き出し」 ×「インポート/エクスポート」
 ・"input/output"  : ◎「入力/出力」         ×「インプット/アウトプット」
 ・"undo/redo"     : ◎「元に戻す/やり直し」 ×「アンドゥ/リドゥ」
-・"update"        : ◎「更新」              ×「アップデート」
-・"web"           : ◎「ウェブ」            ×「Web」「web」
 
 以下は場合によるもの。
 
@@ -156,12 +156,6 @@ msgid "Report generated to:"
 「WAV (Microsoft)」 … 「エンコーディング」
 「その他の非圧縮ファイル」 … 「ヘッダー」、「エンコーディング」
 
-#: src/widgets/Meter.cpp
-msgid "Meter refresh rate per second [1-100]"
-#: 〃
-msgid "Meter refresh rate per second [1-100]: "
-は用途がどう違う？
-
 
 
 ■ これ何？
@@ -220,7 +214,8 @@ msgid "2nd Experimental Command"
 言語設定の選択肢"System"が無い。
 →追加された。
 
-環境設定でFFmpegライブラリ導入済みの状態から更に指定を行おうとした場合に出るダイアログの、タイトル文字列"Success"が無い。
+環境設定でFFmpegライブラリ導入済みの状態から更に指定を行おうとした場合に出るダイアログの、
+タイトル文字列"Success"が無い。
 →追加された。
 
 存在しないファイルを [開く] しようとした時のアラートのタイトル"Error Opening File"が無い。
@@ -303,6 +298,13 @@ msgid "Unknown"
   グループ名が空であるエフェクトが2個以上あるとグループ名として表示される。
   例えば「Grouped by Publisher（発行元でグループ化）」の場合は「;author ""」とすればそうなる。
   一方、空文字列すら指定しなかったり行自体を削除したりすると、グループ名は「n/a（情報なし）」になる。
+
+#: src/widgets/MeterPanel.cpp
+msgid "Meter refresh rate per second [1-100]"
+#: 〃
+msgid "Meter refresh rate per second [1-100]: "
+は用途がどう違う？
+→それぞれXO()とXXO()という違いもあるが、前者は読み上げで使われているのが確認できた。
 
 
 
@@ -439,10 +441,21 @@ Nyquist Plug-in Installerで、改行に "~%" ではなく "\n" が使われて�
        直後の改行を含め、次にまともな文字が現れるまでの空白文字を全て無視する。
 
 出典: http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-121.htm
-参考: http://ais.sys.i.kyoto-u.ac.jp/~task/format-func.html
-      AudacityのXLISPよりも大幅に拡張されている "Common Lisp" の解説。
-      日本語なので一見わかりやすいが、各ディレクティブのパラメータ機能や ~d 等の拡張ディレクティブ、
-      ~{ ... ~} 等の制御ディレクティブといったほとんどの内容が、Audacityでは使えない無縁なもの。
+
+
+
+■ コンソールおよびgitの便利コマンド
+
+・git log -L'/なんか正規表現/,/^$/:locale/ja.po'
+    : 正規表現にマッチする行から直後の空行までの変更履歴を表示する。
+      該当する行が複数ある場合は、最初のマッチが取得される。
+・q
+    : 表示系コマンドを実行すると出力が延々続くことがあるが、それを現状で打ち切る。
+・Ctrl + C
+    : なんか知らんけどアカンことをしてコンソールが固まった時、これで中断して復帰できたりする。
+・git reflog
+  git reset --hard HEAD@{番号}
+    : 行ったgit作業を丸ごと巻き戻す。巻き戻し先の番号はreflogで確認。
 
 
 
@@ -477,18 +490,6 @@ Nyquist Plug-in Installerで、改行に "~%" ではなく "\n" が使われて�
 っていうかこの前後で git grep --cached -I $'\r' の結果に変化がないので（どちらも問題ない結果）、そもそもやる必要なかったまである。
 っていうか試しにLFを1つだけCRにしてみたら差分として検出されたんですが…………？
 まあいいや。
-
-
-
-■ コンソールおよびgitの便利コマンド
-
-・git log -L'/なんか正規表現/,/^$/:locale/ja.po'
-    : 正規表現にマッチする行から直後の空行までの変更履歴を表示する。
-      該当する行が複数ある場合は、最初のマッチが取得される。
-・q
-    : 表示系コマンドを実行すると出力が延々続くことがあるが、それを現状で打ち切る。
-・Ctrl + C
-    : なんか知らんけどアカンことをしてコンソールが固まった時、これで中断して復帰できたりする。
 
 
 

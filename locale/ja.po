@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: audacity 3.0.3\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-14 10:06-0400\n"
-"PO-Revision-Date: 2021-10-18 22:17+0900\n"
+"PO-Revision-Date: 2021-10-19 21:01+0900\n"
 "Last-Translator: Phroneris <phroneris@gmail.com>\n"
 "Language-Team: Atsushi YOSHIDA, Phroneris\n"
 "Language: ja\n"
@@ -1457,7 +1457,7 @@ msgstr "プライバシーポリシー"
 
 #: src/AboutDialog.cpp
 msgid "App update checking and error reporting require network access. These features are optional."
-msgstr "更新確認と障害報告には、ネットワーク接続が必要です。これらの機能のご利用はあくまで任意です。"
+msgstr "更新確認と障害報告のご利用にはネットワーク接続が必要ですが、いずれもあくまで任意の機能です。"
 
 #: src/AdornedRulerPanel.cpp
 msgid "Click and drag to define a looping region."
@@ -3906,7 +3906,7 @@ msgstr "すべて選択(&S)"
 
 #: src/PluginRegistrationDialog.cpp
 msgid "C&lear All"
-msgstr "すべてクリア(&L)"
+msgstr "すべて選択解除(&L)"
 
 #: src/PluginRegistrationDialog.cpp src/effects/EffectUI.cpp
 #: src/prefs/RecordingPrefs.cpp
@@ -11563,19 +11563,19 @@ msgstr "45～85 kbps (軽量)"
 #. i18n-hint: Slightly humorous - as in use an insane precision with MP3.
 #: src/export/ExportMP3.cpp
 msgid "Insane, 320 kbps"
-msgstr "変態、320 kbps"
+msgstr "変態: 320 kbps"
 
 #: src/export/ExportMP3.cpp
 msgid "Extreme, 220-260 kbps"
-msgstr "過激、220～260 kbps"
+msgstr "過激: 220～260 kbps"
 
 #: src/export/ExportMP3.cpp
 msgid "Standard, 170-210 kbps"
-msgstr "標準、170～210 kbps"
+msgstr "標準: 170～210 kbps"
 
 #: src/export/ExportMP3.cpp
 msgid "Medium, 145-185 kbps"
-msgstr "控えめ、145～185 kbps"
+msgstr "控えめ: 145～185 kbps"
 
 #. i18n-hint: Slightly humorous - as in use an insane precision with MP3.
 #: src/export/ExportMP3.cpp
@@ -12901,13 +12901,13 @@ msgstr "不正なデータサイズです。音声を取り込めませんでし
 #: src/menus/ClipMenus.cpp
 #, c-format
 msgid "%s left"
-msgstr "%s 左"
+msgstr "%s 左チャンネル"
 
 #. i18n-hint: given the name of a track, specify its right channel
 #: src/menus/ClipMenus.cpp
 #, c-format
 msgid "%s right"
-msgstr "%s 右"
+msgstr "%s 右チャンネル"
 
 #. i18n-hint:
 #. First %s is replaced with the noun "start" or "end"
@@ -14117,11 +14117,11 @@ msgstr "記憶した選択範囲を再現(&N)"
 
 #: src/menus/SelectMenus.cpp
 msgid "S&pectral"
-msgstr "スペクトル表示(&P)"
+msgstr "スペクトル選択(&P)"
 
 #: src/menus/SelectMenus.cpp
 msgid "To&ggle Spectral Selection"
-msgstr "スペクトル選択(&G)"
+msgstr "スペクトル選択を切り替え(&G)"
 
 #: src/menus/SelectMenus.cpp
 msgid "Next &Higher Peak Frequency"
@@ -16041,7 +16041,7 @@ msgstr "モジュールの環境設定"
 msgid ""
 "These are experimental modules. Enable them only if you've read the Audacity Manual\n"
 "and know what you are doing."
-msgstr "これらは試用モジュールです。マニュアルを熟読し、よく理解した上で有効化してください。"
+msgstr "これらは実験的なモジュールです。マニュアルを熟読し、よく理解した上で有効化してください。"
 
 #. i18n-hint preserve the leading spaces
 #: src/prefs/ModulePrefs.cpp
@@ -18662,7 +18662,7 @@ msgstr "メーターのスタイル"
 
 #: src/widgets/MeterPanel.cpp
 msgid "Gradient"
-msgstr "グラディエント"
+msgstr "グラデーション"
 
 #: src/widgets/MeterPanel.cpp
 msgid "Meter Type"
@@ -20653,7 +20653,7 @@ msgid ""
 "Produced with <span>Sample Data Export</span> for\n"
 "<a href=\"~a\">Audacity</a> by Steve\n"
 "Daulton"
-msgstr "<a href=\"~a\">Audacity</a> プラグイン「<span>サンプルデータの書き出し</span>」によって生成。- Steve Daulton"
+msgstr "<a href=\"~a\">Audacity</a> プラグイン「<span>サンプルデータの書き出し</span>」によって生成。プラグイン作者: Steve Daulton"
 
 #: plug-ins/sample-data-export.ny
 msgid "linear"

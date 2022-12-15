@@ -1,3 +1,10 @@
+元のAudacityのライセンスはGPLのv2およびv3です。
+現状最新のものを下に示します。
+また、Audacityにおける私（達）の日本語化成果物も、
+Audacity本体のソースコードと同様にGPLv3で配布することを、ここに宣言します。
+
+------------------------------
+
 Audacity is released under the GNU General Public License version 3 (GPLv3). 
 Individual source files may be available under other licenses as specified 
 in those files or an accompanying file. In particular, many source files are 

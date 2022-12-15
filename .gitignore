@@ -1,0 +1,10 @@
+# コンパイルされた言語ファイル
+*.mo
+
+# OS
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# その他
+.ignore/
